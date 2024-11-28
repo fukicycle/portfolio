@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0" />
+    <meta name="description" content="Fuki Sato portfolio site.佐藤風輝のポートフォリオサイト" />
+    <title>佐藤 風輝 | ポートフォリオ</title>
+    <base href="/" />
+    <link href="css/index.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body class="klee-one-regular">
+    <header>
+        <div class="header-content">
+            <a class="menu-link" href="">Fuki | 風輝</a>
+            <div>
+                <a class="menu-link" href="projects">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <span>プロジェクト</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hello">
+            <div class="message klee-one-semibold">
+                <span>こんにちは、</span>
+                <span>佐藤　風輝です</span>
+            </div>
+            <div class="sub-message">
+                <div>
+                    <span>３度の飯よりコーディング</span>
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <div>
+                    <span>役立つアプリを目指して</span>
+                    <i class="fa-solid fa-rocket"></i>
+                </div>
+            </div>
+            <div class="nav">
+                <a href="#about" class="down">
+                    <i class="fa-solid fa-arrow-down"></i>
+                </a>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="contents">
+                <h1>私について</h1>
+                <p>こんにちは、私は日本のソフトウェア個人開発者の佐藤　風輝です。
+                    私は誰かのためになるようなアプリを開発したり、遊び心のあるアプリを作成したりすることが好きです。
+                    私がよく使う言語はC#やKotlinです。最近はBlazorとFirebaseを使いサーバーレスのWebアプリを作成しています。
+                    最近Reactの勉強を始め、よりモダンなアプリ開発を試みています。
+                </p>
+                <p>私は現在の会社に入社するまではプログラミングの知識は全くありませんでした。
+                    入社し、まずはITインフラについて学びました。Linux（主にDebian）、Windows Server、Ciscoを一通り構築することができます。
+                    その後、プログラミングを学びました。JavaFX、Xamarin、Windows Forms、WPF、Android Kotlin、ASP.NETといったフレームワークに触れてきました。
+                </p>
+                <p>私は上記の勉強をさせて頂き、
+                    <a href="https://worldskills.org">Worldskills</a>
+                    という国際的なコンテストへの出場の機会をいただきました。
+                    私はそこで国際交流の素晴らしさや、コンテストでよい成績を残すためにどうすればよいのか？といったことを学ぶことができました。
+                </p>
+                <h1>私の実績について</h1>
+                <ul>
+                    <li>
+                        <a target="_blank" href="https://www.mhlw.go.jp/content/11806001/000567684.pdf">
+                            銅メダル - 第５６回技能五輪全国大会（ITネットワークシステム管理職種）
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.mhlw.go.jp/content/11806001/000378423.pdf">
+                            金メダル - 第５７回技能五輪全国大会（ITネットワークシステム管理職種）
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank"
+                            href="https://results.worldskills.org/results?offset=0&event=594&skill=1466&base_skill=221">
+                            Gold medal - Worldskills Competition 2022 Special Edition（IT Software Solutions For
+                            Business）
+                        </a>
+                    </li>
+                </ul>
+                <h1>私のプロジェクトの一部を紹介します</h1>
+                <div class="projects">
+                    <a href="projects/english-master" class="project-card">
+                        <img class="project-img" alt="screenshot" />
+                        <div class="project-desc">
+                            <p>これは私が作成した英語学習アプリの最終版です。
+                                過去に５度作成し、ついに完成形にたどり着きました。
+                                はじめて作成した際はBlazor Serverで作成しましたが、
+                                現在はBlazor WebAssembly + Firebase Realtime Databaseを利用しています。
+                            </p>
+                        </div>
+                    </a>
+                    <a href="projects/vegelog" class="project-card">
+                        <img class="project-img" alt="screenshot" />
+                        <div class="project-desc">
+                            <p>これは植物の成長を記録するアプリです。ユーザ登録は不要で、
+                                アプリを使い始める際に自動で割り当てられるグループコードを共有することで、
+                                家族や友人といった人に記録を共有することができます。
+                                Blazor WebAssemblyとASP.NET Core WebAPIとSQL Serverを利用して作成しています。
+                            </p>
+                        </div>
+                    </a>
+                    <a href="projects/sukkirikun" class="project-card">
+                        <img class="project-img" alt="screenshot" />
+                        <div class="project-desc">
+                            <p>これはデスクトップに散らかったショートカット集をきれいに整理したいという思いから作成されました。
+                                ショートカットをデスクトップに作成する代わりに対象のソフトウェアをドラッグアンドドロップすることで
+                                自動的にショートカットが作成されます。さらに、グループ分け機能により素早く目的のショートカットに
+                                アクセスすることができます。
+                                WPFプラットフォームで作成されているためWindowsのみでの動作となります。
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <a href="projects" class="btn more">もっと見る</a>
+            </div>
+        </section>
+        <section class="contacts">
+            <h1>つながりましょう！</h1>
+            <p>ご質問にお答えしたり、さらなる機会について話し合ったりすることは喜んでお受けします。以下のプラットフォームでお気軽にメッセージをお送りください。</p>
+            <div class="platforms">
+                <a href="mailto:lego.sato.4135@gmail.com">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+                <a href="https://github.com/fukicycle" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div>Fuki Sato &copy;2024</div>
+        </div>
+    </footer>
+</body>
+
+</html>
