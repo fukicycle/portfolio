@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
 
+User-Agent: *
+Disallow: /projects/
+
 Sitemap: https://fukicycle.github.io/portfolio/sitemap.xml
