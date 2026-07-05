@@ -1,0 +1,117 @@
+{
+  "nav": {
+    "title": "Fuki | 風輝",
+    "projects": "プロジェクト",
+    "theme_light": "ライト",
+    "theme_dark": "ダーク"
+  },
+  "hero": {
+    "greeting": "こんにちは、",
+    "name": "佐藤 風輝です",
+    "sub_coding": "３度の飯よりコーディング",
+    "sub_useful": "役立つアプリを目指して",
+    "scroll_down": "大自然をのぞく"
+  },
+  "about": {
+    "title": "私について",
+    "p1": "こんにちは、私は日本のソフトウェア個人開発者の佐藤 風輝です。誰かのためになるようなアプリを開発したり、遊び心のあるアプリを作成したりすることが好きです。よく使う言語はC#やKotlinです。仕事では自動化ツールを.NET WPFで開発しています。最近はBlazor WebAssemblyとFirebaseを組み合わせたサーバーレスのWebアプリや、Reactを用いたモダンなWebアプリケーション開発にも挑戦しています。",
+    "p2": "現在の会社に入社するまではプログラミングの知識はまったくありませんでしたが、まずはITインフラ（Linux（Debian）、Windows Server、Ciscoネットワーク機器の構築など）を一から学び、その後ソフトウェア開発へとステップアップしました。JavaFX、Xamarin、Windows Forms、WPF、Android Kotlin、ASP.NETなど、多岐にわたるフレームワークに触れ、技術を磨いてきました。",
+    "p3": "こうした地道な学びを重ねた結果、技能五輪（Worldskills）という国際的なコンテストに出場する貴重な機会をいただきました。そこで培った世界の技術者との交流や卓越した課題解決力は、私の現在の開発スタイルの強固な基盤となっています。",
+    "education_title": "教育背景",
+    "education_school": "大分県立大分工業高等学校 卒業 (2017年3月)",
+    "timeline_title": "経歴・活動タイムライン",
+    "timeline": {
+      "phase1": {
+        "date": "2017年 - 2018年",
+        "title": "トヨタ工業学園 専門部 在籍",
+        "desc": "トヨタ自動車株式会社へ入社。最初の1年間は専門部にてITインフラ（Linux、Windows Server、Cisco）をはじめとする技術の基礎をみっちりと習得。"
+      },
+      "phase2": {
+        "date": "2018年 - 2019年",
+        "title": "技能五輪「ITネットワークシステム管理」選手",
+        "desc": "2年間にわたりインフラ・ネットワーク分野の選手として訓練。第56回全国大会で銅メダル、第57回全国大会で金メダルを獲得。"
+      },
+      "phase3": {
+        "date": "2020年 - 2022年",
+        "title": "技能五輪「業務用ITソフトウェア・ソリューションズ」選手",
+        "desc": "C#、Java、Kotlin、モバイル等を駆使したビジネスソフト開発の選手として3年間精進。2022年特別開催の国際大会にて世界第1位（金メダル・733点）を獲得。"
+      },
+      "phase4": {
+        "date": "2023年 - 2024年",
+        "title": "技能五輪 専任指導者",
+        "desc": "指導者（トレーナー）として、日本代表選手や全国大会に挑む次世代の若い選手たちの技術指導・育成に従事。"
+      },
+      "phase5": {
+        "date": "2025年",
+        "title": "プラント・環境技術部 SCADAシステム開発",
+        "desc": "実務部署に配属。工場インフラである「原動力監視システム」におけるSCADA（データ収集・監視）システムや自動化開発を主導。"
+      },
+      "phase6": {
+        "date": "2026年 - 現在",
+        "title": "生産デジタル変革室 AIプラットフォーム開発 / インフラ設計・開発",
+        "desc": "現在は工場のDXを強力に推進する部署にて、製造現場の「AIプラットフォーム」開発に従事。開発者として主にインフラ設計や開発を担当。システム全体の高信頼な基盤となる「アップデートの仕組み」や「ライセンス認証の仕組み」の設計・実装を主導。"
+      }
+    },
+    "achievements_title": "実績・受賞歴",
+    "achievement_1": "銅メダル - 第56回技能五輪全国大会 (ITネットワークシステム管理職種, 2018年)",
+    "achievement_2": "金メダル - 第57回技能五輪全国大会 (ITネットワークシステム管理職種, 2019年)",
+    "achievement_3": "金メダル (世界第1位・733点) - 第46回技能五輪国際大会 特別開催 (IT Software Solutions for Business職種, 2022年)"
+  },
+  "tech_stack": {
+    "title": "技術スタック",
+    "subtitle": "実務、個人開発、そして国際コンテストの舞台で培ってきた主要なスキルツリーです。",
+    "categories": {
+      "languages": "プログラミング言語",
+      "frameworks": "フレームワーク / プラットフォーム",
+      "backend_db": "データベース / クラウド",
+      "infrastructure": "インフラ / ネットワーク"
+    },
+    "items": {
+      "csharp": "C# (.NET)",
+      "kotlin": "Kotlin",
+      "java": "Java",
+      "typescript": "TypeScript",
+      "javascript": "JavaScript",
+      "blazor": "Blazor WASM / Server",
+      "react": "React",
+      "wpf": ".NET WPF",
+      "aspnet": "ASP.NET Core",
+      "android": "Android SDK",
+      "firebase": "Firebase RTDB / Firestore",
+      "sql_server": "SQL Server",
+      "linux": "Linux (Debian)",
+      "cisco": "Cisco Systems (インフラ)",
+      "windows_server": "Windows Server",
+      "aws": "AWS (クラウド)"
+    }
+  },
+  "projects": {
+    "title": "プロジェクト紹介",
+    "learn_more": "詳細を見る",
+    "english_master": {
+      "title": "English Master",
+      "summary": "英語学習アプリの最終版。過去に5度の試行錯誤を経て、Blazor WebAssembly + Firebaseで完成させた究極 of 自作学習プラットフォームです。",
+      "description": "英語学習アプリの最終決定版です。過去に5度アーキテクチャを変更し、ついにこの完成形に到達しました。初期はBlazor Serverで構築されていましたが、現在は完全にサーバーレスなBlazor WebAssembly + Firebase Realtime Database構成へとリファクタリングされています。高いレスポンス性能とリアルタイムのデータ同期により、毎日の学習をスムーズにサポートします。"
+    },
+    "vegelog": {
+      "title": "Vegelog (植物成長記録アプリ)",
+      "summary": "ユーザー登録不要で家族や友人と植物の成長を記録・共有できる、プライバシーに配慮したBlazor WASM製アプリ。",
+      "description": "植物の成長記録を共有できるアプリです。ユーザー登録の手間を省き、アプリ開始時に自動で割り当てられる「グループコード」を共有するだけで、家族や友人と一緒にリアルタイムに成長記録を投稿・共有できます。フロントエンドにはBlazor WebAssembly、バックエンドにはASP.NET Core WebAPIとSQL Serverを採用し、堅牢でスケールしやすい構成で開発されています。"
+    },
+    "sukkirikun": {
+      "title": "すっきり君 (デスクトップ整理ツール)",
+      "summary": "デスクトップに散らかったショートカットをドラッグ＆ドロップで自動整理・グループ化できる、Windows用WPFツール。",
+      "description": "デスクトップのショートカットアイコンで画面が埋め尽くされる問題を解決するために開発されたデスクトップユーティリティです。直接デスクトップにショートカットを作る代わりに、対象のアプリケーションを「すっきり君」にドラッグ＆ドロップするだけで、ショートカットを自動登録。便利なグループ分け機能により、素早く目的のソフトを起動できます。.NET WPFで構築され、Windowsデスクトップ環境に最適化されています。"
+    }
+  },
+  "contact": {
+    "title": "つながりましょう！",
+    "p1": "プロジェクトについての質問や提案、またはお仕事のご依頼なども大歓迎です！ぜひお気軽にお問い合わせください。",
+    "footer": "Fuki Sato © 2025"
+  },
+  "modal": {
+    "close": "閉じる",
+    "tech_stack": "技術スタック",
+    "under_construction": "※このプロジェクトは現在もアクティブに開発・アップデートが行われています。"
+  }
+}

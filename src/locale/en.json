@@ -1,0 +1,117 @@
+{
+  "nav": {
+    "title": "Fuki | Sato",
+    "projects": "Projects",
+    "theme_light": "Light",
+    "theme_dark": "Dark"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Fuki Sato",
+    "sub_coding": "Coding over anything else",
+    "sub_useful": "Aiming to build useful apps",
+    "scroll_down": "Explore Nature"
+  },
+  "about": {
+    "title": "About Me",
+    "p1": "Hello, I am Fuki Sato, a software developer based in Japan. I am deeply passionate about creating applications that solve real-world problems and bringing playful, innovative ideas to life. My primary languages of expertise are C# and Kotlin. In my professional career, I design and build automation tools using .NET WPF. Recently, I have been focused on creating serverless web applications using Blazor WebAssembly combined with Firebase, and I am actively studying React to expand my horizons in modern web technologies.",
+    "p2": "Before starting my career, I had no prior background in programming. I began my journey by learning IT infrastructure from scratch, gaining proficiency in setting up Linux (mainly Debian), Windows Server, and Cisco network environments. Transitioning to software engineering, I have gained hands-on experience with diverse frameworks including JavaFX, Xamarin, Windows Forms, WPF, Android Kotlin, and ASP.NET Core.",
+    "p3": "Through dedication and intensive training, I had the incredible honor of representing Japan at the Worldskills Competition. Building connections with world-class engineers and refining my technical abilities under intense pressure has fundamentally shaped my approach to software engineering and problem-solving.",
+    "education_title": "Educational Background",
+    "education_school": "Graduated from Oita Prefectural Oita Technical High School (March 2017)",
+    "timeline_title": "Career & Activity Timeline",
+    "timeline": {
+      "phase1": {
+        "date": "2017 - 2018",
+        "title": "Toyota Technical Skills Academy (Professional Course)",
+        "desc": "Joined Toyota Motor Corporation. Spent the first year at the academy undergoing intensive study of IT infrastructure foundations, including Linux, Windows Server, and Cisco networking."
+      },
+      "phase2": {
+        "date": "2018 - 2019",
+        "title": "Skills Competitor - IT Network Systems Administration",
+        "desc": "Trained for two years as an infrastructure and networking competitor. Won the Bronze Medal at the 56th National Competition and the Gold Medal at the 57th National Competition."
+      },
+      "phase3": {
+        "date": "2020 - 2022",
+        "title": "Skills Competitor - IT Software Solutions for Business",
+        "desc": "Spent three years mastering software development technologies using C#, Java, Kotlin, and Mobile SDKs. Won the Gold Medal (World Champion, 1st Place - 733 pts) at the WorldSkills Competition 2022 Special Edition."
+      },
+      "phase4": {
+        "date": "2023 - 2024",
+        "title": "WorldSkills Dedicated Trainer",
+        "desc": "Served as a trainer and technical mentor, guiding and educating the next generation of young competitors representing Japan on national and world stages."
+      },
+      "phase5": {
+        "date": "2025",
+        "title": "SCADA Developer - Plant & Environmental Engineering Dept.",
+        "desc": "Assigned to the engineering department. Led the development of SCADA (Supervisory Control and Data Acquisition) and automation tools for utility and power monitoring systems."
+      },
+      "phase6": {
+        "date": "2026 - Present",
+        "title": "AI Platform Developer (Infrastructure & Core Dev)",
+        "desc": "Currently engaged in shop-floor AI platform development within the Production Digital Transformation Office. Serving as a core developer responsible for infrastructure design and development, specifically designing and implementing critical system foundations such as the platform's update delivery and software licensing mechanisms."
+      }
+    },
+    "achievements_title": "Key Accomplishments",
+    "achievement_1": "Bronze Medal - 56th National Skills Competition (IT Network Systems Administration, 2018)",
+    "achievement_2": "Gold Medal - 57th National Skills Competition (IT Network Systems Administration, 2019)",
+    "achievement_3": "Gold Medal (World Champion, 1st Place - 733 pts) - Worldskills Competition 2022 Special Edition (IT Software Solutions for Business, 2022)"
+  },
+  "tech_stack": {
+    "title": "Tech Stack",
+    "subtitle": "Key skills and technologies I have worked with across professional settings, personal developments, and elite international competitions.",
+    "categories": {
+      "languages": "Programming Languages",
+      "frameworks": "Frameworks & Platforms",
+      "backend_db": "Database & Cloud",
+      "infrastructure": "Infrastructure & Networking"
+    },
+    "items": {
+      "csharp": "C# (.NET)",
+      "kotlin": "Kotlin",
+      "java": "Java",
+      "typescript": "TypeScript",
+      "javascript": "JavaScript",
+      "blazor": "Blazor WASM / Server",
+      "react": "React",
+      "wpf": ".NET WPF",
+      "aspnet": "ASP.NET Core",
+      "android": "Android SDK",
+      "firebase": "Firebase RTDB / Firestore",
+      "sql_server": "SQL Server",
+      "linux": "Linux (Debian)",
+      "cisco": "Cisco Systems (Infrastructure)",
+      "windows_server": "Windows Server",
+      "aws": "AWS (Cloud)"
+    }
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "learn_more": "Learn More",
+    "english_master": {
+      "title": "English Master",
+      "summary": "The ultimate self-learning English platform, refined over 5 iterations using Blazor WebAssembly and Firebase Realtime Database.",
+      "description": "This is the definitive edition of my self-made English learning application. Having completely rewritten its architecture five times in search of perfection, it has evolved from a Blazor Server app into a highly responsive, serverless Blazor WebAssembly application integrated with Firebase Realtime Database. It supports smooth daily study sessions with high performance and real-time syncing."
+    },
+    "vegelog": {
+      "title": "Vegelog (Plant Growth Tracker)",
+      "summary": "A privacy-first plant growth diary built with Blazor WASM, letting families and friends log growth together using simple code sharing.",
+      "description": "A plant growth tracking app designed with privacy in mind. By bypassing traditional user registration, it generates a unique 'Group Code' upon initialization. Users can simply share this code to start documenting and viewing their plants' growth logs with family and friends. Built using Blazor WebAssembly, ASP.NET Core WebAPI, and SQL Server for a robust and scalable architecture."
+    },
+    "sukkirikun": {
+      "title": "Sukkiri-kun (Desktop Shortcut Organizer)",
+      "summary": "A WPF utility for Windows that cleans up cluttered desktops by automatically creating categorized launcher shortcuts via drag-and-drop.",
+      "description": "A desktop organization utility created to solve the clutter of having dozens of shortcuts on the screen. Instead of crowding the desktop, users drag and drop files or applications onto Sukkiri-kun, which automatically catalogs them. Features convenient category grouping to launch applications instantly. Built with .NET WPF and fully optimized for Windows desktop environments."
+    }
+  },
+  "contact": {
+    "title": "Let's Connect!",
+    "p1": "I am always open to questions, suggestions, or potential job opportunities and collaborations. Feel free to reach out to me anytime!",
+    "footer": "Fuki Sato © 2025"
+  },
+  "modal": {
+    "close": "Close",
+    "tech_stack": "Tech Stack",
+    "under_construction": "*This project is actively maintained and updated."
+  }
+}

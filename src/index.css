@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-klee transition-colors duration-300;
+  }
+}
+
+/* Custom scrollbar matching nature theme */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-nature-light-bg dark:bg-nature-dark-bg;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-nature-light-green/30 dark:bg-nature-dark-green/30 rounded-full hover:bg-nature-light-green/50 dark:bg-nature-dark-green/50;
+}
